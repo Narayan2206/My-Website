@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #0ea5e9;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    /* max-width: 80%;
+    margin: auto; */
+    font-size: 1.1rem;
+}
+
+nav{
+    background-color: var(--primary-color);
+    /* max-width: 85%; */
+    margin: auto;
+    padding: 1rem;
+    /* height: 100px; */
+}
+
+nav .brand{
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.navigation{
+    text-align: right;
+}
+
+.navigation li{
+    display: inline;
+    list-style: none;
+    padding: 0 2rem;
+}
+
+
+.hero{
+    padding: 2rem;
+    /* padding-top: 5rem; */
+}
+
+.hero .hero-image{
+    display: block;
+    margin: auto;
+    max-width: 60%;
+    width: 450px;
+    /* border: 2px solid red; */
+}
+
+.hero .hero-heading{
+    text-align: center;
+    /* padding: 1rem 0; */
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section{
+    margin: 1rem 0;
+}
+
+.container{
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.container h2{
+     padding-bottom: 1rem;
+}
+
+.footer{
+    color: white;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer .footer-links{
+      padding: 1rem;
+}
+
+.footer .footer-links li{
+    display: inline;
+    list-style: none;
+    padding: 0 2rem;
+}
+
+/* Projects Page */
+
+
+
+/* Utility Classes */
+
+/* .mx-1rem{
+    margin: 0 1rem;
+} */
+
+.mx-small{
+    margin: 0.5rem auto;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 10px auto;
+    width: 130px;
+    border-radius: 8px;
+} 
+
+.link-secondary{
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 10px auto;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.link-active{
+    font-weight: bolder;
+}
+
+.text-theme{
+    color: var(--primary-color);
+}
+
+.text-gray{
+    color: gray;
+}
+
+.offWhite{
+    background-color: #f3f4f6;
+}
+
+
