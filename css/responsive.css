@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px)  {
+    
+    .navigation{
+        text-align: center;
+    }
+
+    nav .brand{
+       text-align: center;
+       padding: 1rem 1rem;
+    }
+
+    .container p{
+        padding: 0 1rem;
+    }
+
+    .project-description{
+        width: 80%;
+    }
+}
