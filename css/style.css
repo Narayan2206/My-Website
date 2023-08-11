@@ -18,10 +18,8 @@ body{
 
 nav{
     background-color: var(--primary-color);
-    /* max-width: 85%; */
     margin: auto;
     padding: 1rem;
-    /* height: 100px; */
 }
 
 nav .brand{
@@ -97,6 +95,13 @@ nav .brand{
 
 .project-description{
     width: 60%;
+}
+
+/* Blogs Page */
+
+.min-h{
+    min-height: calc(100vh - 107px - 149px);
+    
 }
 
 /* Utility Classes */
