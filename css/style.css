@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #334155;
 }
 
 :root{
@@ -13,20 +14,17 @@ body{
     font-family: 'Lato', sans-serif;
     /* max-width: 80%;
     margin: auto; */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 
 nav{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     margin: auto;
-    padding: 1rem;
-}
-
-nav .brand{
-    padding: 0.8rem 1rem;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: white;
+    height: 70px;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .navigation{
@@ -42,22 +40,20 @@ nav .brand{
 
 .hero{
     padding: 2rem;
-    /* padding-top: 5rem; */
-}
-
-.hero .hero-image{
-    display: block;
-    margin: auto;
-    max-width: 60%;
-    width: 450px;
+    padding-left: 10%;
+    margin-top: 4%;
+    height: 74vh;
     /* border: 2px solid red; */
 }
 
+
 .hero .hero-heading{
-    text-align: center;
-    /* padding: 1rem 0; */
-    padding-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 4.5em;
+}
+
+.hero p{
+    font-size: 1.4rem;
+    margin-top: 1%;
 }
 
 .section{
@@ -97,12 +93,6 @@ nav .brand{
     width: 60%;
 }
 
-/* Blogs Page */
-
-.min-h{
-    min-height: calc(100vh - 107px - 149px);
-    
-}
 
 /* Utility Classes */
 
@@ -112,7 +102,27 @@ nav .brand{
 
 .link{
     text-decoration: none;
-    color: white;
+    color: #1f2937;
+    position: relative;
+}
+
+.link::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 0%;
+    height: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.link:hover{
+    color: #64748b;
+}
+
+.link:hover::after{
+    width: 100%;
 }
 
 .link-primary{
@@ -134,9 +144,6 @@ nav .brand{
     border-radius: 8px;
 }
 
-.link-active{
-    font-weight: bolder;
-}
 
 .text-theme{
     color: var(--primary-color);

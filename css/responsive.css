@@ -4,9 +4,8 @@
         text-align: center;
     }
 
-    nav .brand{
-       text-align: center;
-       padding: 1rem 1rem;
+    nav{
+       justify-content: center;
     }
 
     .container p{
