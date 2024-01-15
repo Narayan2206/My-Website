@@ -43,7 +43,7 @@ nav {
     padding: 2rem;
     padding-left: 10%;
     margin-top: 4%;
-    height: 50vh;
+    height: 55vh;
     /* border: 2px solid red; */
 }
 
@@ -57,36 +57,46 @@ nav {
     margin-top: 1%;
 }
 
-.section {
-    margin: 1rem 0;
-}
 
 .section-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .container {
     text-align: center;
     padding: 4rem 0rem;
+    border: 2px solid green;
+    width: 80%;
+    border-radius: 6px;
+    margin: auto;
+    margin-bottom: 5%;
+    box-shadow: 4px 4px 20px rgba(16, 16, 16, 0.5);
 }
 
 .section-heading {
     font-weight: 600;
     position: relative;
+    margin: 4% auto 8%;
 }
 
 .section-heading::after {
     content: "";
     position: absolute;
     bottom: -20px;
-    left: 4px;
+    left:0;
+    transform: translate(50%,50%);
     background-color: var(--primary-color);
     height: 5px;
-    width: 80px;
+    width: 50%;
 
+}
+
+.contact-section{
+    
 }
 
 .footer {
