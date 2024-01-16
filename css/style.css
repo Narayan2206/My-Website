@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
     /* max-width: 80%;
     margin: auto; */
     /* font-size: 1.1rem; */
@@ -45,6 +46,9 @@ nav {
     margin-top: 4%;
     height: 55vh;
     /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -54,7 +58,6 @@ nav {
 
 .hero p {
     font-size: 1.4rem;
-    margin-top: 1%;
 }
 
 
@@ -75,6 +78,23 @@ nav {
     margin-bottom: 5%;
     box-shadow: 4px 4px 20px rgba(16, 16, 16, 0.5);
 }
+
+.btn{
+       background-color: var(--primary-color);
+       border: none;
+       border-radius: 5px;
+       font-size: 1rem;
+       padding: 12px 16px;
+       cursor: pointer;
+}
+
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
 
 .section-heading {
     font-weight: 600;

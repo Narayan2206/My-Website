@@ -8,6 +8,10 @@
        justify-content: center;
     }
 
+    .hero{
+        align-items: center;
+    }
+
     .container p{
         padding: 0 1rem;
     }
