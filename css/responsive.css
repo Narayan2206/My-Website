@@ -10,6 +10,8 @@
 
     .hero{
         align-items: center;
+        height: 45vh;
+        margin-top: 10%;
     }
 
     .hero .hero-heading{
@@ -39,7 +41,4 @@
         margin: 0;
     }
 
-    .footer{
-        margin-top: 18%;
-    }
 }

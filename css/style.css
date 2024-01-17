@@ -42,7 +42,6 @@ nav {
     padding-left: 10%;
     margin-top: 4%;
     height: 55vh;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 10px;
