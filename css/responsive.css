@@ -12,10 +12,14 @@
         align-items: center;
     }
 
-    .container p{
-        padding: 0 1rem;
+    .hero .hero-heading{
+       font-size: 2.5rem;
     }
 
+    .section-heading{
+        margin-bottom: 18%;
+    }
+    
     .project-description{
         width: 80%;
     }
@@ -33,5 +37,9 @@
     .links-container div:nth-child(-n+2):after{
         content: "";
         margin: 0;
+    }
+
+    .footer{
+        margin-top: 18%;
     }
 }

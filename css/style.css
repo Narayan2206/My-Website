@@ -14,13 +14,10 @@
 body {
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
-    /* max-width: 80%;
-    margin: auto; */
-    /* font-size: 1.1rem; */
 }
 
 nav {
-    /* background-color: var(--primary-color); */
+    
     margin: auto;
     height: 70px;
     width: 80%;
@@ -68,10 +65,12 @@ nav {
     justify-content: space-between;
 }
 
-.container {
-    text-align: center;
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     padding: 4rem 0rem;
-    border: 2px solid green;
     width: 80%;
     border-radius: 6px;
     margin: auto;
@@ -79,13 +78,52 @@ nav {
     box-shadow: 4px 4px 20px rgba(16, 16, 16, 0.5);
 }
 
+.project-description{
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.project-links{
+    margin-top: 25px;
+}
+
+.project-links a{
+   text-decoration: none;
+   padding: 12px 14px;
+   border-radius: 5px;
+   font-weight: 800;
+   margin: 5px;
+   transition: all 0.5s ease-out;
+}
+
+
+.project-links a:first-child{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.project-links a:nth-child(2){
+    color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(16, 16, 16, 0.5);
+}
+
+.project-links :first-child:hover{
+    background: #33c2ff;
+}
+
+.project-links a:nth-child(2):hover{
+    color: #33c2ff;
+}
+
 .btn{
-       background-color: var(--primary-color);
-       border: none;
-       border-radius: 5px;
-       font-size: 1rem;
-       padding: 12px 16px;
-       cursor: pointer;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 12px 16px;
+    cursor: pointer;
 }
 
 
@@ -136,18 +174,7 @@ nav {
 }
 
 
-/* Projects Section */
-
-.project-description {
-    width: 60%;
-}
-
-
 /* Utility Classes */
-
-.mx-small {
-    margin: 0.5rem auto;
-}
 
 .link {
     text-decoration: none;
